@@ -2,6 +2,7 @@ import zeeguu.core
 from sqlalchemy import Column, Integer, Boolean
 from sqlalchemy.orm import relationship
 from zeeguu.core.model.language import Language
+from zeeguu.api.endpoints.teacher_dashboard import helpers
 
 db = zeeguu.core.db
 
@@ -82,3 +83,12 @@ class Cohort(zeeguu.core.db.Model):
     def exists_with_invite_code(cls, code: str):
         all_matching = cls.query.filter_by(inv_code=code).all()
         return len(all_matching) > 0
+
+    @classmethod
+    def exists_with_invite_code(cls, code: str):
+        all_matching = cls.query.filter_by(inv_code=code).all()
+        return len(all_matching) > 0
+
+    @classmethod
+    def get_cohort_info(id):
+        return helpers.gehelpers(id)
