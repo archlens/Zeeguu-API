@@ -45,7 +45,7 @@ import zeeguu.core.model
 assert zeeguu.core.model
 # -----------------
 
-from .api import api
+from .endpoints import api
 
 app.register_blueprint(api)
 
