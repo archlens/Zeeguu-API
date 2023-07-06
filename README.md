@@ -4,6 +4,7 @@ Zeeguu-API is an open API that allows tracking and modeling the progress of a le
 
 The API is also currently deployed as the backend for the [zeeguu.org](https://zeeguu.org) website.
 
+
 ## Overview
 
 The API offers translations for the words that a learner encounters in their readings. The history of the translated words and their context is saved and used to build a dynamic model of the user knowledge. The context is used to extract the words the user knows and their topics of interest.
