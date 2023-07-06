@@ -3,8 +3,8 @@
     "name": "-",
     "rootFolder": "zeeguu",
     "github": {
-        "url": "",
-        "branch": "main"
+        "url": "git@github.com:archlens/ArchLens.git",
+        "branch": "master"
     },
     "saveLocation": "./diagrams/",
     "views": {
