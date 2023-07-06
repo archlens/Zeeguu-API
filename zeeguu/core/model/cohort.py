@@ -82,3 +82,7 @@ class Cohort(zeeguu.core.db.Model):
     def exists_with_invite_code(cls, code: str):
         all_matching = cls.query.filter_by(inv_code=code).all()
         return len(all_matching) > 0
+
+    def get_cohort_info(id):
+        from zeeguu.api.endpoints.teacher_dashboard.helpers import get_cohort_info
+        return get_cohort_info(id)
