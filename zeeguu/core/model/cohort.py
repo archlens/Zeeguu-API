@@ -2,7 +2,6 @@ import zeeguu.core
 from sqlalchemy import Column, Integer, Boolean
 from sqlalchemy.orm import relationship
 from zeeguu.core.model.language import Language
-from zeeguu.api.endpoints.teacher_dashboard import helpers
 
 db = zeeguu.core.db
 
@@ -91,4 +90,5 @@ class Cohort(zeeguu.core.db.Model):
 
     @classmethod
     def get_cohort_info(id):
+        from zeeguu.api.endpoints.teacher_dashboard import helpers
         return helpers.gehelpers(id)
