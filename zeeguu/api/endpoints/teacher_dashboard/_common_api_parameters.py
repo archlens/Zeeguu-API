@@ -3,7 +3,7 @@ from datetime import timedelta, datetime
 import flask
 from sqlalchemy.orm.exc import NoResultFound
 
-from zeeguu.api.api.teacher_dashboard._permissions import check_permission_for_user
+from zeeguu.api.endpoints.teacher_dashboard._permissions import check_permission_for_user
 from zeeguu.core.model import User, Cohort
 from zeeguu.core.sql.query_building import date_format, datetime_format
 

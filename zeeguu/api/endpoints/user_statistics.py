@@ -1,6 +1,6 @@
 import flask
 
-from zeeguu.api.api.utils.json_result import json_result
+from zeeguu.api.endpoints.utils.json_result import json_result
 from zeeguu.core.user_statistics.activity import activity_duration_by_day
 from . import api
 from .utils.route_wrappers import cross_domain, with_session

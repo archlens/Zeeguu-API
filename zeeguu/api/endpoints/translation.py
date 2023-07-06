@@ -4,7 +4,7 @@ from urllib.parse import unquote_plus
 import flask
 from flask import request
 
-from zeeguu.api.api.translator import (
+from zeeguu.api.endpoints.translator import (
     TranslationQuery,
     get_next_results,
     contribute_trans,

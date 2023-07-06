@@ -1,7 +1,7 @@
 import flask
 from flask import request, make_response
 from zeeguu.core.model import Session, User
-from zeeguu.api.api.utils.abort_handling import make_error
+from zeeguu.api.endpoints.utils.abort_handling import make_error
 
 from .utils.route_wrappers import cross_domain, with_session
 from . import api, db_session

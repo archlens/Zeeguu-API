@@ -1,7 +1,7 @@
 import json
 
 import flask
-from zeeguu.api.api.feature_toggles import features_for_user
+from zeeguu.api.endpoints.feature_toggles import features_for_user
 import zeeguu.core
 from zeeguu.core.emailer.zeeguu_mailer import ZeeguuMailer
 

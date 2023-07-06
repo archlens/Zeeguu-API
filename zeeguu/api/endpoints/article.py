@@ -1,7 +1,7 @@
 import flask
 from flask import request
 from zeeguu.core.model import Article, Language
-from zeeguu.api.api.utils.json_result import json_result
+from zeeguu.api.endpoints.utils.json_result import json_result
 from zeeguu.core.model.personal_copy import PersonalCopy
 from sqlalchemy.orm.exc import NoResultFound
 from .utils.route_wrappers import cross_domain, with_session

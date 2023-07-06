@@ -1,6 +1,6 @@
 import flask
 from flask import request
-from zeeguu.api.api.utils.json_result import json_result
+from zeeguu.api.endpoints.utils.json_result import json_result
 
 from zeeguu.core.model import Cohort
 

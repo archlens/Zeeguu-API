@@ -8,7 +8,7 @@ from flask import request
 from sqlalchemy.orm.exc import NoResultFound
 
 import zeeguu.core
-from zeeguu.api.api.utils.abort_handling import make_error
+from zeeguu.api.endpoints.utils.abort_handling import make_error
 from zeeguu.core.emailer.zeeguu_mailer import ZeeguuMailer
 from zeeguu.core.model import Cohort, Language, Article, Url, User
 from zeeguu.core.model.cohort_article_map import CohortArticleMap
