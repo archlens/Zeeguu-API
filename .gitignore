@@ -27,3 +27,10 @@ lu-mir-zeeguu-credentials.json
 
 zenv*
 tools/_playground.py
+/diagrams/--api-core-details.png
+/diagrams/--complete.png
+/diagrams/--core-details.png
+/diagrams/--diff-api-core-details.png
+/diagrams/--diff-complete.png
+/diagrams/--diff-topLevel.png
+/diagrams/--topLevel.png
